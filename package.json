@@ -1,0 +1,35 @@
+{
+  "name": "url-shortner-dio",
+  "version": "1.0.0",
+  "description": "encurtador de url para projeto do Bootcamp Eduzz Fullstack Developer 2 - DIO",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "build": "tsc",
+    "dev": "nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thayaraujo/url-shortner-dio.git"
+  },
+  "keywords": [
+    "url",
+    "shortner"
+  ],
+  "author": "Thaynara Araújo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thayaraujo/url-shortner-dio/issues"
+  },
+  "homepage": "https://github.com/thayaraujo/url-shortner-dio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
